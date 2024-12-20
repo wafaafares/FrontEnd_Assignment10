@@ -1,0 +1,30 @@
+body{
+    background-color: #24353F;
+}
+.container{
+    background-color: #24353F;
+}
+
+h1{
+    color: #17A2B8;
+    font-weight: 500;
+    font-family: "Bree Serif", serif;
+}
+
+
+#LogInStatus{
+    
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.shadowElement{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+

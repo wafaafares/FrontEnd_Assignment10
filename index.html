@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Log in interface -->
+    <div class="logInGroup container my-5 text-center d-flex justify-content-center">
+        <div class=" w-75 shadow-lg p-5">
+
+            <h1 class="mb-4">Smart Login System</h1>
+            <input class="form-control mb-3" type="text" id="emailLogIn" placeholder="Enter Your Email">
+            <input class="form-control mb-4" type="password" id="passwordLogIn" placeholder="Enter Your PassWord">
+            <p id="LogInStatus" class="mb-4"></p>
+            <button id="LogInBtn" class="btn btn-outline-primary w-100 mb-4">Login</button>
+            <p class="text-white">Don't have an account? <a href="" id="SignUpLink">Sign Up</a></p>
+        </div>
+
+
+    </div>
+
+    <!-- Sign Up interface-->
+    <div class="SignUpGroup container my-5 text-center d-flex justify-content-center d-none">
+        <div class=" w-75 shadow-lg p-5">
+
+            <h1 class="mb-4">Smart Login System</h1>
+            <input class="form-control mb-3" type="text" id="NameSignUp" placeholder="Enter Your Name">
+            <input class="form-control mb-4" type="text" id="emailSignUp" placeholder="Enter Your Email">
+            <input class="form-control mb-4" type="password" id="passwordSignUp" placeholder="Enter Your PassWord">
+            <p id="SignUpStatus" class="mb-4"></p>
+            <button id="SignUpBtn" class="btn btn-outline-primary w-100 mb-4">Sign Up</button>
+            <p class="text-white">You have an account <a href="" id="SignInLink">Sign In</a></p>
+        </div>
+    </div>
+
+    <!-- For successful Log In -->
+    <section id="afterLogIn" class="d-none">
+
+    </section>
+    
+
+    <script src="main.js"></script>
+</body>
+
+</html>
